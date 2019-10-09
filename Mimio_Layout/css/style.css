@@ -1,0 +1,283 @@
+    
+    /*header css start*/
+
+.header{
+    min-width: 111px;
+    background: white;
+}
+.header_container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    min-height: 111px;
+    align-items: center;
+}
+.logo{}
+.logo ul{
+    list-style: none;
+}
+.logo ul li{
+}
+.logo ul li img{
+    width: 168px;
+    height: 42px;
+    background-color: #DBD7D7;
+}
+
+.nav{}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    margin-right: 59px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #503d3d;
+    font-size: 20px;
+}
+
+.nav ul li a:hover{
+    color: #0a0acb;
+}
+
+
+    /*header css end*/
+
+
+    /*photodairy_section start*/
+
+.photodairy_section{
+    width: 95%;
+    margin: auto;
+}
+.photo{}
+.photo img{width: 100%;margin-bottom: 80px;}
+.perfect_weekend{
+    width: 90%;
+    margin: auto;
+}
+.perfect_weekend span{
+    text-transform: uppercase;
+    color: #b29797;
+}
+.perfect_weekend h1{
+    color: #B6B6B6;
+    margin-bottom: 40px;
+}
+.perfect_weekend p{
+    text-align: justify;
+    line-height: 26px;
+    color: #3b3434;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.leave_a_comment{
+    margin-bottom: 90px;
+}
+.leave_a_comment ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.leave_a_comment ul li{}
+.leave_a_comment ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+.leave_a_comment ul li a:hover{
+    color: blue;
+}
+
+
+    /*photodairy_section end*/
+
+
+
+    /*festival_container start*/
+
+.festival_container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.music_festival img{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.music_festival span{
+    font-size: 22px;
+    color: gray;
+    text-transform: uppercase;
+}
+.music_festival h2{
+    font-size: 35px;
+}
+.music_festival p{
+    text-align: justify;
+    line-height: 26px;
+    color: #3b3434;
+    font-size: 20px;
+}
+.music_festival {
+    width: 48%;
+}
+
+.with_coffee img{
+    margin-bottom: 33px;
+    width: 100%;
+}
+.with_coffee span{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: gray;
+}
+.with_coffee h2{
+    font-size: 35px;
+}
+.with_coffee p{
+    text-align: justify;
+    line-height: 26px;
+    color: #3b3434;
+    font-size: 20px;
+}
+.with_coffee {
+    width: 48%;
+}
+
+.festival_container_two{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+    /*festival_container end*/
+
+
+/*css Sign_up_section start*/
+
+.Sign_up_section{
+    min-height: 333px;
+    background: #F0F0F0;
+    margin-bottom: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+.Sign_up_section h1{font-size: 26px;}
+.Sign_up_section input{
+    border: none;
+    background: #F0F0F0;
+    width: 585px;
+    margin-top: 80px;
+    border-bottom: 2px solid gray;
+    font-size: 18px;
+}
+
+input[type="email"] {}
+.Sign_up_section img{
+    position: absolute;
+    right: 29%;
+    top: 67%;
+}
+
+
+/*css Sign_up_section end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*footer css start*/
+
+.footer_background{
+    min-height: 111px;
+    background: #f4f4f4;
+}
+.footer_container{
+    width: 85%;
+    margin: auto;
+    min-height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Terms{}
+.Terms ul{
+    list-style: none;
+}
+.Terms ul li{
+    float: left;
+    margin-right: 35px;
+}
+.Terms ul li a{
+    text-decoration: none;
+    color: #454242;
+}
+.social_share{}
+.social_share ul{
+    list-style: none;
+}
+.social_share ul li{
+    float: left;
+    margin-right: 36px;
+}
+.social_share ul li a{
+    text-decoration: none;
+    color: #493434;
+}
+.social_share ul li a i{}
+
+    /*load more button css start*/
+
+.load_more_btn{
+    min-height: 222px;
+}
+.load_more_btn input{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    padding: 34px;
+    width: 158px;
+    border: 2px solid gray;
+}
+
+
+    /*load more button css end*/
+
+
+
+
+
+
+    /*footer css end*/
